@@ -2,11 +2,11 @@ package com.company;
 
 public class asteriod {
 
-    public vector[] astVectors = new vector[10];
+    public polyvector[] astVectors = new polyvector[10];
     public polyCentre astCentre;
-    public int size = 2; 
+    public int size = 2;
 
-    public asteriod (vector[] vectors, polyCentre centre){
+    public asteriod (polyvector[] vectors, polyCentre centre){
         astVectors=vectors;
         astCentre=centre;
 
